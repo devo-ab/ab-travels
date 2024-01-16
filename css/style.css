@@ -195,7 +195,8 @@ main {
 }
 
 .bnn2-head,
-.bnn3-head {
+.bnn3-head,
+.bnn4-head {
     color: #131318;
     text-align: center;
     font-size: 2.5rem;
@@ -203,7 +204,8 @@ main {
 }
 
 .bnn2-para,
-.bnn3-para {
+.bnn3-para,
+.bnn4-para {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-weight: 400;
@@ -357,6 +359,10 @@ main {
 }
 
 /* section_banner3_end */
+
+
+
+
 /* main_style_end */
 
 /* footer_style_start */
@@ -571,6 +577,7 @@ hr {
         margin-bottom: 20px;
 
     }
+
     hr {
         width: 422px;
         margin: 0 auto;
