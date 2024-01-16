@@ -16,6 +16,9 @@
                  justify-content: space-between;
                  margin-top: 40px;
              }
+             .nav-menubar{
+                display: none;
+             }
 
              .nav-logo {
                  display: flex;
@@ -637,6 +640,14 @@
                     display: inline-block;
                 }
 
+                .nav-menubar{
+                    display: block;
+                }
+
+                .nav-ul li{
+                    display: none;
+                }
+
 
                  .overlay {
                      width: 550px;
@@ -648,11 +659,6 @@
                      margin-left: 98px;
                  }
 
-
-
-                 nav {
-                     flex-direction: column;
-                 }
 
                  .header-banner {
                      padding: 32px 24px;
