@@ -361,6 +361,102 @@ main {
 /* section_banner3_end */
 
 
+/* section_banner6_start */
+.newsletter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bnn6-newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 395px;
+    height: 375px;
+    padding: 22px;
+}
+
+.bnn6-img {
+    width: 100%;
+}
+.bnn6-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.bnn6-para {
+    width: 350px;
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.bnn6-hr {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+}
+
+.bnn6-input {
+    width: 373px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+.bnn6-btn {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 8px;
+    border: none;
+}
+
+
+.bnn6-rle {
+    position: relative;
+}
+
+.bnn6-tag {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    position: absolute;
+    bottom: 52px;
+    right: 7px;
+}
+
+.bnn6-web {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.bnn6-offer {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* section_banner6_end */
+
+
 
 
 /* main_style_end */
@@ -584,6 +680,45 @@ hr {
         margin-top: 50px;
     }
 
+    .newsletter {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+        margin: 0 auto;
+    }
+
+    .bnn6-newsletter {
+        margin-bottom: 15px;
+    }
+
+    .bnn6-img {
+        width: 100%;
+    }
+
+    .bnn6-tag {
+        width: 280px;
+        height: 100px;
+        transform: rotate(-19.628deg);
+        bottom: 45px;
+        right: 5px;
+    }
+
+    .bnn6-web {
+        padding: 5px;
+    }
+
+    .bnn6-newsletter{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .bnn6-rle{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
 }
 
 
@@ -698,6 +833,17 @@ hr {
         margin-top: 20px;
         margin-bottom: 20px;
 
+    }
+
+    .newsletter {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .bnn6-newsletter{
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 }
 
