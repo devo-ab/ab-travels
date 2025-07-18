@@ -830,7 +830,7 @@ hr {
     .header-banner {
         padding: 40px 15px;
         background-size: cover;
-        border-radius: 2px;
+        border-radius: 25px;
     }
 
     .header-title {
