@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
     box-sizing: border-box;
-    overflow-x: hidden; 
 }
 
 /* header_style_start */
@@ -215,20 +214,7 @@ main {
     font-weight: 800;
 }
 
-.image-wrapper {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
-}
 
-.popuImage {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-  object-fit: cover;
-}
 
 /* popular tours end */
 
@@ -643,6 +629,10 @@ hr {
         border-radius: 25px;
     }
 
+    .overlay {
+        border-radius: 25px;
+    }
+
     .header-title {
         font-size: 3rem;
     }
@@ -727,11 +717,6 @@ hr {
         font-size: 14px;
     }
 
-    .popuImage {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
 
     .newsletter {
         flex-direction: column-reverse;
@@ -838,6 +823,10 @@ hr {
         font-size: 1rem;
     }
 
+    .overlay {
+        border-radius: 25px;
+    }
+
     .header-banner {
         padding: 40px 15px;
         background-size: cover;
@@ -853,7 +842,7 @@ hr {
         max-width: 95%;
     }
 
-    
+
 
     .search {
         flex-direction: column;
