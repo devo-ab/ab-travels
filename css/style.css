@@ -864,6 +864,22 @@ hr {
         gap: 20px;
         margin-top: 50px;
         align-items: center;
+        overflow-x: hidden;
+    }
+
+    .image-wrapper {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .popuImage {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
     }
 
     .bnn1-head {
